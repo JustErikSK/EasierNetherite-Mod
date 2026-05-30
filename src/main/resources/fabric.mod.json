@@ -9,7 +9,7 @@
 		"With Rage Studios"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/mod/easier-netherite",
+		"homepage": "https://modrinth.com/mod/easier-netherite-mod",
 		"issues": "https://github.com/JustErikSK/EasierNetherite-Mod/issues",
 		"sources": "https://github.com/JustErikSK/EasierNetherite-Mod"
 	},
@@ -21,9 +21,6 @@
 			"net.withrage.easiernetherite.EasierNetherite"
 		]
 	},
-	"mixins": [
-		"easiernetherite.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.18.0",
 		"minecraft": "~1.20.1",
