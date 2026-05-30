@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "easiernetherite",
+	"version": "${version}",
+	"name": "Easier Netherite",
+	"description": "Make gathering Netherite a bit easier for yourself!",
+	"authors": [
+		"JustErikSK",
+		"With Rage Studios"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/easier-netherite",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/easiernetherite/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.withrage.easiernetherite.EasierNetherite"
+		]
+	},
+	"mixins": [
+		"easiernetherite.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
