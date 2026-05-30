@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 2.0,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "easiernetherite:raw_netherite"
+  },
+  "result": {
+    "id": "minecraft:netherite_ingot"
+  }
+}
