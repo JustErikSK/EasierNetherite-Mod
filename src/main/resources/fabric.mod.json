@@ -14,7 +14,7 @@
 		"sources": "https://github.com/JustErikSK/EasierNetherite-Mod"
 	},
 	"license": "MIT",
-	"icon": "assets/easiernetherite/icon.png",
+	"icon": "assets/easiernetherite/easiernetherite-icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
