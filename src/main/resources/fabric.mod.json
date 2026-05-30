@@ -10,7 +10,8 @@
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/easier-netherite",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"issues": "https://github.com/JustErikSK/EasierNetherite-Mod/issues",
+		"sources": "https://github.com/JustErikSK/EasierNetherite-Mod"
 	},
 	"license": "MIT",
 	"icon": "assets/easiernetherite/icon.png",
