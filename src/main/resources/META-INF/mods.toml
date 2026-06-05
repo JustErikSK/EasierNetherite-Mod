@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[64,)"
+license="MIT"
+[[mods]]
+modId="easiernetherite"
+version="1.0.0"
+displayName="Easier Netherite"
+authors="JustErikSK, With Rage Studios"
+description='''Make gathering Netherite a bit easier for yourself!'''
+[[dependencies.easiernetherite]]
+    modId="forge"
+    mandatory=true
+    versionRange="[64,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.easiernetherite]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[26.1.2,26.2,)"
+    ordering="NONE"
+    side="BOTH"

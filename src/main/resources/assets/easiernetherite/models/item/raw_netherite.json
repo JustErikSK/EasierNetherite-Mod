@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "easiernetherite:item/raw_netherite"
+  }
+}
