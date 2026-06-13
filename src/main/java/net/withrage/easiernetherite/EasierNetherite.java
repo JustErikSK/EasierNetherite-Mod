@@ -18,7 +18,11 @@ public class EasierNetherite implements ModInitializer {
 		LOGGER.info("Mod EasierNetherite has been loaded!");
 
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-			entries.addAfter(Items.NETHERITE_SCRAP, ModItems.RAW_NETHERITE);
+			entries.addAfter(Items.NETHERITE_SCRAP, ModItems.NETHERITE_NUGGET);
+		});
+
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+			entries.addAfter(ModItems.NETHERITE_NUGGET, ModItems.RAW_NETHERITE);
 		});
 	}
 }

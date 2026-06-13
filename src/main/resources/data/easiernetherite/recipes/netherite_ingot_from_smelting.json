@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "easiernetherite:raw_netherite"
+    "item": "minecraft:netherite_scrap"
   },
   "result": "minecraft:netherite_ingot",
   "experience": 2.0,
