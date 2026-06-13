@@ -28,6 +28,13 @@ public class EasierNetherite {
 		if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			event.getEntries().putAfter(
 					new ItemStack(Items.NETHERITE_SCRAP),
+					new ItemStack(ModItems.NETHERITE_NUGGET.get()),
+					CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS
+			);
+		}
+		if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			event.getEntries().putAfter(
+					new ItemStack(ModItems.NETHERITE_NUGGET.get()),
 					new ItemStack(ModItems.RAW_NETHERITE.get()),
 					CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS
 			);
