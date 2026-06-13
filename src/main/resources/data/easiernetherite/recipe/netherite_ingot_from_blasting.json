@@ -3,7 +3,7 @@
   "experience": 2.0,
   "cookingtime": 100,
   "ingredient": {
-    "item": "easiernetherite:raw_netherite"
+    "item": "minecraft:netherite_scrap"
   },
   "result": {
     "id": "minecraft:netherite_ingot"

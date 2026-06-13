@@ -9,6 +9,7 @@ import net.withrage.easiernetherite.EasierNetherite;
 
 public class ModItems {
     public static final Item RAW_NETHERITE = registerItem("raw_netherite", new Item(new Item.Settings()));
+    public static final Item NETHERITE_NUGGET = registerItem("netherite_nugget", new Item(new Item.Settings()));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of("easiernetherite", name), item);
