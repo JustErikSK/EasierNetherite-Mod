@@ -28,7 +28,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:netherite_scrap",
+              "name": "easiernetherite:raw_netherite",
               "functions": [
                 {
                   "function": "minecraft:apply_bonus",
