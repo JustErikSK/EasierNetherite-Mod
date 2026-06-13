@@ -9,6 +9,7 @@ import net.withrage.easiernetherite.EasierNetherite;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(EasierNetherite.MOD_ID);
     public static final DeferredItem<Item> RAW_NETHERITE = ITEMS.register("raw_netherite", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NETHERITE_NUGGET = ITEMS.register("netherite_nugget", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
