@@ -14,6 +14,7 @@ import net.withrage.easiernetherite.EasierNetherite;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, EasierNetherite.MOD_ID);
     public static final RegistryObject<Item> RAW_NETHERITE = ITEMS.register("raw_netherite", () -> new Item(new Item.Properties().setId(itemKey("raw_netherite"))));
+    public static final RegistryObject<Item> NETHERITE_NUGGET = ITEMS.register("netherite_nugget", () -> new Item(new Item.Properties().setId(itemKey("netherite_nugget"))));
 
     private static ResourceKey<Item> itemKey(String name) {
         return ResourceKey.create(

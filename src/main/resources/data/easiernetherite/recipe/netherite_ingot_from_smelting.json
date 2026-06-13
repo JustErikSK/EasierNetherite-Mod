@@ -2,7 +2,7 @@
   "type": "minecraft:smelting",
   "experience": 2.0,
   "cookingtime": 100,
-  "ingredient": "easiernetherite:raw_netherite",
+  "ingredient": "minecraft:netherite_scrap",
   "result": {
     "id": "minecraft:netherite_ingot"
   }

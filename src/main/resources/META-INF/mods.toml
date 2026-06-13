@@ -3,7 +3,7 @@ loaderVersion="[64,)"
 license="MIT"
 [[mods]]
 modId="easiernetherite"
-version="1.0.0"
+version="1.1.0"
 displayName="Easier Netherite"
 authors="JustErikSK, With Rage Studios"
 description='''Make gathering Netherite a bit easier for yourself!'''
