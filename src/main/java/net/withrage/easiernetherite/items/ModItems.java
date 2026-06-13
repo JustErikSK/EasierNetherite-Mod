@@ -12,6 +12,7 @@ import java.util.function.Function;
 
 public class ModItems {
     public static final Item RAW_NETHERITE = registerItem("raw_netherite");
+    public static final Item NETHERITE_NUGGET = registerItem("netherite_nugget");
 
     public static Item registerItem(String name) {
         return register(name, Item::new, new Item.Properties());
