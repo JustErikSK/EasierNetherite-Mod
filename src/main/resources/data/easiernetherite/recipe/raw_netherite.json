@@ -1,11 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "AA",
-    "AA"
+    "AAA",
+    "AAA",
+    "AAA"
   ],
   "key": {
-    "A": "minecraft:netherite_scrap"
+    "A": "easiernetherite:netherite_nugget"
   },
   "result": {
     "id": "easiernetherite:raw_netherite",
