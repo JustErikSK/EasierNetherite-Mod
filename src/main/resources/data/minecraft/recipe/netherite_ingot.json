@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X"
+  ],
+  "key": {
+    "X": "easiernetherite:removed_recipe_placeholder"
+  },
+  "result": {
+    "id": "minecraft:netherite_ingot"
+  }
+}
