@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": "easiernetherite:netherite_nugget"
+  },
+  "result": {
+    "id": "easiernetherite:raw_netherite",
+    "count": 1
+  }
+}
