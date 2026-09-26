@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA",
+    "AA"
+  ],
+  "key": {
+    "A": "easiernetherite:raw_netherite"
+  },
+  "result": {
+    "id": "minecraft:netherite_scrap",
+    "count": 1
+  }
+}

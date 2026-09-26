@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.withrage.easiernetherite.mixin",
+  "mixins": [
+    "RecipeMapMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
