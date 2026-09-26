@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "net.withrage.easiernetherite.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "RecipeMapMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
