@@ -10,34 +10,16 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:ancient_debris",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "predicates": {
-                      "minecraft:enchantments": [
-                        {
-                          "enchantments": "minecraft:silk_touch",
-                          "levels": {
-                            "min": 1
-                          }
-                        }
-                      ]
-                    }
-                  }
-                }
-              ]
+              "condition": "minecraft:tool/can_silk_touch"
             },
             {
               "type": "minecraft:item",
               "name": "easiernetherite:raw_netherite",
-              "functions": [
-                {
-                  "function": "minecraft:apply_bonus",
-                  "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:ore_drops"
-                }
-              ]
+              "modifier": {
+                "type": "minecraft:apply_bonus",
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:ore_drops"
+              }
             }
           ]
         }
